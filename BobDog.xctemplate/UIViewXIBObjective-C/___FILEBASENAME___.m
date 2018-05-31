@@ -21,7 +21,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [[NSBundle mainBundle] loadNibNamed:@"___FILEBASENAMEASIDENTIFIER___" owner:self options:nil];
+        [[NSBundle bundleForClass:___FILEBASENAMEASIDENTIFIER___.class] loadNibNamed:@"___FILEBASENAMEASIDENTIFIER___" owner:self options:nil];
         [self addSubview:_contentView];
     }
     return self;
