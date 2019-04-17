@@ -15,7 +15,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        Bundle(for: ___FILEBASENAMEASIDENTIFIER___.self).main.loadNibNamed("___FILEBASENAMEASIDENTIFIER___", owner: self, options: nil)
+        Bundle(for: ___FILEBASENAMEASIDENTIFIER___.self).loadNibNamed("___FILEBASENAMEASIDENTIFIER___", owner: self, options: nil)
         self.addSubview(contentView)
     }
     
